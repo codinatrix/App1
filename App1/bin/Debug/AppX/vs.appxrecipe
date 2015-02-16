@@ -8,44 +8,61 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>20598144-59f2-464a-99f3-cd77bd4bd355</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>DDAEF430EE92430090A8501FB588945E844FDC1282EA0025DF065778395D03A9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20598144-59f2-464a-99f3-cd77bd4bd355_1.0.0.0_neutral__derznw759xt9t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20598144-59f2-464a-99f3-cd77bd4bd355_derznw759xt9t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>20598144-59f2-464a-99f3-cd77bd4bd355</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=layla</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T10:24:23.314</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
+      <Modified>2015-02-16T10:24:58.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-12T10:24:22.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-16T10:24:58.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
+      <Modified>2015-02-16T10:02:45.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\layla.CREPIDOAB\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-12T10:24:23.178</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
