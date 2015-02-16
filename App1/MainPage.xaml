@@ -15,7 +15,7 @@
         <x:String x:Key="AppName">Save the Humans</x:String>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid>
-                <Ellipse Fill="#FFE24B4B" Height="100" Stroke="Black" Width="100"/>
+                <Ellipse Fill="Gray" Height="100" Stroke="Gray" Width="75"/>
             </Grid>
         </ControlTemplate>
     </Page.Resources>
@@ -43,7 +43,7 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Grid.ColumnSpan="3">
+        <Grid x:Name="grid" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="160"/>
                 <ColumnDefinition/>
@@ -67,19 +67,19 @@
             <ContentControl Content="ContentControl" HorizontalAlignment="Center" VerticalAlignment="Center" Template="{StaticResource EnemyTemplate}"/>
         </StackPanel>
         <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
-        <Canvas x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3">
+        <Canvas x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3" PointerMoved="playArea_PointerMoved" PointerExited="playArea_PointerExited">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF250425" Offset="1"/>
                     <GradientStop Color="#FF600761"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="human" Orientation="Vertical">
+            <StackPanel x:Name="human" Orientation="Vertical" PointerPressed="human_PointerPressed">
                 <Ellipse Fill="#FFF2D9D9" Height="10" Stroke="Black" Width="10" Margin="45,0"/>
                 <Rectangle Fill="#FFF2D9D9" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
             <TextBlock x:Name="gameOverText" Canvas.Left="412" TextWrapping="Wrap" Text="Game Over" Canvas.Top="120" FontFamily="Arial Black" FontSize="100" FontWeight="Bold" FontStyle="Italic"/>
-            <Rectangle x:Name="target" Height="50" Canvas.Left="250" Stroke="Black" Canvas.Top="280" Width="50" RenderTransformOrigin="0.5,0.5">
+            <Rectangle x:Name="target" Height="50" Canvas.Left="250" Stroke="Black" Canvas.Top="280" Width="50" RenderTransformOrigin="0.5,0.5" PointerEntered="target_PointerEntered">
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>
